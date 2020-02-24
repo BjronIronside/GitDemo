@@ -19,6 +19,7 @@ public class HomePage extends baseClass {
 	@Test
 	public void HomePageAction() {
 		LandlingPage LP = new LandlingPage(driver);
+System.out.println("hello world123e2e");
 		LP.getLogin().click();
 	}
 }
