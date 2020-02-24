@@ -12,6 +12,7 @@ public class HomePage extends baseClass {
 	public void LaunchBrowser() throws Exception {
 		driver = initializeDriver();
 		driver.get("http://qaclickacademy.com");
+		System.out.println("hello world");
 		//driver.quit();
 	}
 
